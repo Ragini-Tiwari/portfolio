@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Projects</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Python / AI / ML Projects</h1>
+<div class="project-card">
+<div class="project-details">
+    <h2>Instagram Profile Detection</h2>
+    <img src="images/ai.jpeg" alt="Project 2">
+    <p class="short-desc">Instagram Profile Detection using AI/ML and Python involves leveraging machine learning and artificial intelligence algorithms to analyze Instagram user profiles.</p>
+    <p class="full-desc" style="display: none;">This analysis includes extracting demographic information, such as age and gender, identifying user interests and engagement patterns, and performing sentiment analysis on comments and posts. </p>
+    <p><span class="show-more" onclick="toggleDescription(this)">Show More</span></p>
+    <a href="https://github.com/yourusername/project2" target="_blank" class="btn">GitHub Link</a>
+  </div>
+
+  <div class="project-details">
+    <h2>Language Detection</h2>
+    <img src="images/ai.jpeg" alt="Project 2">
+    <p class="short-desc">Creating a language detection model using AI/ML and Python involves leveraging machine learning algorithms and techniques to automatically identify the language of a given text.</p>
+    <p class="full-desc" style="display: none;"> This model can be integrated into applications and systems to perform language identification tasks efficiently, supporting multilingual content processing, language-specific analysis, and personalized user experiences based on language preferences. </p>
+    <p><span class="show-more" onclick="toggleDescription(this)">Show More</span></p>
+    <a href="https://github.com/yourusername/project2" target="_blank" class="btn">GitHub Link</a>
+  </div>
+
+  <div class="project-details">
+    <h2>Spotify Song Analysis</h2>
+    <img src="images/ai.jpeg" alt="Project 2">
+    <p class="short-desc">Analyzing Spotify songs using AI/ML and Python involves leveraging machine learning algorithms and data processing techniques to extract insights and patterns from music data. </p>
+    <p class="full-desc" style="display: none;">By utilizing Python libraries such as Spotipy for accessing Spotify's API and machine learning frameworks like scikit-learn or TensorFlow, developers can build models to analyze song characteristics, identify genre trends, recommend songs based on user preferences.</p>
+    <p><span class="show-more" onclick="toggleDescription(this)">Show More</span></p>
+    <a href="https://github.com/yourusername/project2" target="_blank" class="btn">GitHub Link</a>
+  </div>
+
+  <div class="project-details">
+    <h2>Weather App</h2>
+    <img src="images/ai.jpeg" alt="Project 2">
+    <p class="short-desc">A Weather App using Django, Python, and APIs involves integrating weather data from external sources into a Django web application. </p>
+    <p class="full-desc" style="display: none;">This process typically includes setting up Django projects and apps, creating views to handle API requests, and rendering weather information on the front end.</p>
+    <p><span class="show-more" onclick="toggleDescription(this)">Show More</span></p>
+    <a href="https://github.com/yourusername/project2" target="_blank" class="btn">GitHub Link</a>
+  </div>
+
+  <div class="project-details">
+    <h2>Piano</h2>
+    <img src="images/ai.jpeg" alt="Project 2">
+    <p class="short-desc">The GUI Piano project uses Python with Tkinter for the graphical interface and pygame for audio playback. </p>
+    <p class="full-desc" style="display: none;"> It creates a simple piano interface with buttons representing piano notes, allowing users to click and play corresponding piano sounds. This project demonstrates basic GUI development and audio handling in Python, providing a foundation for more advanced music applications and interactive interfaces.</p>
+    <p><span class="show-more" onclick="toggleDescription(this)">Show More</span></p>
+    <a href="https://github.com/yourusername/project2" target="_blank" class="btn">GitHub Link</a>
+  </div>
+
+  <!-- Add more project cards as needed -->
+</div>
+
+<script>
+  function toggleDescription(spanElement) {
+    var parentDetails = spanElement.closest('.project-details');
+    var fullDesc = parentDetails.querySelector('.full-desc');
+
+    if (fullDesc.style.display === 'none') {
+      fullDesc.style.display = 'block';
+      spanElement.innerText = 'Show Less';
+    } else {
+      fullDesc.style.display = 'none';
+      spanElement.innerText = 'Show More';
+    }
+  }
+</script>
+
+</body>
+</html>

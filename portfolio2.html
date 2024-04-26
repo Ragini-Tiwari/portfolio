@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Projects</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Java and Android Projects</h1>
+
+<div class="project-card">
+    <div class="project-details">
+        <h2>Library Management System</h2>
+        <img src="images/ai.jpeg" alt="Project 2">
+        <p class="short-desc">The Library Management System project is developed using Java with Swing for the graphical user interface.</p>
+        <p class="full-desc" style="display: none;"> It offers functionalities like adding new books, updating existing information, searching for specific titles or authors, managing borrower details, and processing book lending and returning transactions, enhancing overall library operations and organization.</p>
+        <p><span class="show-more" onclick="toggleDescription(this)">Show More</span></p>
+        <a href="https://github.com/yourusername/project2" target="_blank" class="btn">GitHub Link</a>
+      </div>
+    
+      <div class="project-details">
+        <h2>Text Editor</h2>
+        <img src="images/ai.jpeg" alt="Project 2">
+        <p class="short-desc">The Text Editor project is developed using Java and Swing to create a graphical user interface for text editing functionalities.</p>
+        <p class="full-desc" style="display: none;"> It leverages Swing components to offer a user-friendly interface with functionalities like file management (save, open), basic formatting options (font style, size), and potential advanced features like syntax highlighting or spell checking, enhancing the text editing experience.</p>
+        <p><span class="show-more" onclick="toggleDescription(this)">Show More</span></p>
+        <a href="https://github.com/yourusername/project2" target="_blank" class="btn">GitHub Link</a>
+      </div>
+    
+    
+      <div class="project-details">
+        <h2>Bus Ticket Booking System</h2>
+        <img src="images/ai.jpeg" alt="Project 2">
+        <p class="short-desc">The Bus Ticket Booking System is a software application designed to facilitate the reservation and management of bus tickets. </p>
+        <p class="full-desc" style="display: none;">. It offers convenience through features like seat availability checks, route selection, and real-time updates on bus schedules. Additionally, administrators can manage buses, routes, fares, and user accounts, ensuring smooth operations and customer satisfaction in the transportation industry.</p>
+        <p><span class="show-more" onclick="toggleDescription(this)">Show More</span></p>
+        <a href="https://github.com/yourusername/project2" target="_blank" class="btn">GitHub Link</a>
+      </div>
+    
+  <div class="project-details">
+    <h2>To Do List App</h2>
+    <img src="images/ai.jpeg" alt="Project 2">
+    <p class="short-desc">A To-Do List App using Java involves building a graphical user interface (GUI) to manage tasks. </p>
+    <p class="full-desc" style="display: none;">This typically includes creating a main window to display tasks, adding options to add, edit, and delete tasks, and implementing functionality to save tasks persistently.</p>
+    <p><span class="show-more" onclick="toggleDescription(this)">Show More</span></p>
+    <a href="https://github.com/yourusername/project2" target="_blank" class="btn">GitHub Link</a>
+  </div>
+</div>
+
+<script>
+  function toggleDescription(spanElement) {
+    var parentDetails = spanElement.closest('.project-details');
+    var fullDesc = parentDetails.querySelector('.full-desc');
+
+    if (fullDesc.style.display === 'none') {
+      fullDesc.style.display = 'block';
+      spanElement.innerText = 'Show Less';
+    } else {
+      fullDesc.style.display = 'none';
+      spanElement.innerText = 'Show More';
+    }
+  }
+</script>
+
+</body>
+</html>

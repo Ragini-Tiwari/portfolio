@@ -231,20 +231,26 @@ h1,h2,h3,h4,h5
     }
 /* end home */
 
-
-
-/* start work */
-/* start work */
+/* chatgpt */
 #About {
   background: #000000;
-  padding: 50px 0; /* Added padding for spacing */
-  height: 100vh; /* Set height to viewport height */
-  overflow-y: auto; /* Include padding in the element's total height and width */
+  padding: 50px 0; 
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  box-sizing: border-box; /* Include padding in the element's total height */
 }
+
+
+
+/*#About {
+  background: #000000;
+  padding: 50px 0; 
+  height: 100vh; 
+  overflow-y: auto; 
+}*/
 
 #About h2 {
   text-align: center;
-  color: #ffffff; /* Changed text color for better visibility */
+  color: #ffffff; 
 }
 
 #About .media {
@@ -277,9 +283,7 @@ h1,h2,h3,h4,h5
 
     /* start skills */
 /* Container for the skills section */
-#skills h2{
-  text-align: center;
-}
+
 .container1 {
   width: 80%;
   margin: 0 auto;

@@ -241,11 +241,6 @@ h1,h2,h3,h4,h5
   height: 100vh; /* Set height to viewport height */
   overflow-y: auto; /* Include padding in the element's total height and width */
 }
-#skills h2{
-  text-align: center;
-}
-
-
 
 #About h2 {
   text-align: center;
@@ -282,6 +277,9 @@ h1,h2,h3,h4,h5
 
     /* start skills */
 /* Container for the skills section */
+#skills h2{
+  text-align: center;
+}
 .container1 {
   width: 80%;
   margin: 0 auto;

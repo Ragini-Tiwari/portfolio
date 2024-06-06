@@ -241,6 +241,9 @@ h1,h2,h3,h4,h5
   height: 100vh; /* Set height to viewport height */
   overflow-y: auto; /* Include padding in the element's total height and width */
 }
+#skills h2{
+  text-align: center;
+}
 
 
 
@@ -476,6 +479,7 @@ h1,h2,h3,h4,h5
       grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); 
   }
 }
+
 #portfolio .row {
     margin-right: -15px;
     margin-left: -15px;
